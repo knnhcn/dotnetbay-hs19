@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetBay.BusinessLogic\DotNetBay.BusinessLogic.csproj" />
+    <ProjectReference Include="..\DotNetBay.Data.Provider.FileStorage\DotNetBay.Data.Provider.FileStorage.csproj" />
+    <ProjectReference Include="..\DotNetBay.Interfaces\DotNetBay.Interfaces.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
